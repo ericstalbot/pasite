@@ -3,7 +3,7 @@ import os
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 
 
-SECRET_KEY = open('../../pa_secret_key.txt').read().strip()
+SECRET_KEY = open('../pa_secret_key.txt').read().strip()
 
 DEBUG = True
 
